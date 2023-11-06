@@ -1,0 +1,18 @@
+// Find out output of below progrm.
+
+#include <iostream>
+using namespace std;
+struct student
+{
+    char a;
+    float c;
+    char b;
+};
+int main()
+{
+      cout<<"My Name Is Bhalani Pal"<<endl;
+    cout<<"En_no :: 220130318080 "<<endl;
+    cout << sizeof(student);
+
+    return 0;
+}
