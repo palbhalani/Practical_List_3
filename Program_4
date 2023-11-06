@@ -1,0 +1,33 @@
+/* Write a C++ program to create class student with data members name & age. Member function are get_details() and
+   display_details(). Call both member functions using object of the class. */
+
+#include<iostream>
+using namespace std;
+struct employee
+{
+    char emp_name[10];
+    int emp_code;
+    int emp_salary;
+    char branch[10];
+}s1,s2,s3,s4;
+
+int main()
+{
+     cout<<"My Name Is Bhalani Pal"<<endl;
+    cout<<"En_no :: 220130318080 "<<endl;
+    cout<<"Enter the emp_name :: ";
+    cin>>s1.emp_name;
+    cout<<"Enter the emp_code :: ";
+    cin>>s2.emp_code;
+    cout<<"Enter the emp_salary :: ";
+    cin>>s3.emp_salary;
+    cout<<"Enter the brnch :: ";
+    cin>>s4.branch;
+
+    cout<<s1.emp_name<<endl;
+    cout<<s2.emp_code<<endl;
+    cout<<s3.emp_salary<<endl;
+    cout<<s4.branch<<endl;
+
+    return 0;
+}
